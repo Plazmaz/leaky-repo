@@ -1,7 +1,8 @@
 Tool: https://github.com/dxa4481/truffleHog  
 Command Used: `trufflehog --regex https://github.com/Plazmaz/leaky-repo.git`  
 Total finds: 22/44  
-False Positives: 0
+False Positives: 0  
+
 File Name                                       |  Found? (0 = no, 1 = yes) |
 ------------------------------------------------|---------------------------|
 .bash_profile                                   | 1

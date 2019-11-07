@@ -3,6 +3,7 @@
 ## Table of contents
 * [FAQ](#FAQ)
 * [Secrets](#Secrets)
+* [Results](#Results)
 * [Contact](#Contact)
 
 # FAQ
@@ -66,6 +67,8 @@ sftp-config.json                       | Created by SFTP for Sublime Text, conta
 .idea/WebServers.xml                         | Created by Jetbrains IDEs, contains webserver credentials with encoded passwords ([not encrypted!](https://intellij-support.jetbrains.com/hc/en-us/community/posts/207074025/comments/207034775))
 high-entropy-misc.txt                          | Misc high entropy strings (HES1 is plain, HES2 is base64)
 
+# Results
+You can see how tools stack up in [Benchmarking](https://github.com/Plazmaz/leaky-repo/tree/master/benchmarking)
 # Contact
 Got a question? Found something worth adding?   
 [File an issue](https://github.com/Plazmaz/leaky-repo/issues)  

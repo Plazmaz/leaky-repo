@@ -2,6 +2,7 @@ Tool: https://github.com/Yelp/detect-secrets
 Command Used: `detect-secrets scan`  
 Total finds: 16/44  
 False Positives: 0
+
 File Name                                       |  Found? (0 = no, 1 = yes) |
 ------------------------------------------------|---------------------------|
 .bash_profile                                   | 1
