@@ -1,4 +1,4 @@
-# Leaky Repo
+# Leaky Repo 🚿
 
 ## Table of contents
 * [FAQ](#FAQ)
@@ -64,7 +64,10 @@ sftp-config.json                       | Created by SFTP for Sublime Text, conta
 high-entropy-misc.txt                          | Misc high entropy strings (HES1 is plain, HES2 is base64)
 
 # Contact
-Got a question? Found something worth adding? [File an issue](https://!
+Got a question? Found something worth adding?   
+[File an issue](https://github.com/Plazmaz/leaky-repo/issues)  
+Have another reason to contact me? You can find me on Twitter:  
+[@Plazmaz](https://twitter.com/Plazmaz)
 
 
 It's also worth noting that many of the original patterns used to find the filenames and examples of several secrets came from github-dorks, which is under tha [Apache 2.0 License](https://github.com/techgaun/github-dorks/blob/master/LICENSE)
