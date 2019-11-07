@@ -23,20 +23,24 @@ Filename                                           | Description
 ------------------------------------------------|--------------------------------------------------------------------------
 .npmrc                                          | NPM registry authentication data
 .dockercfg                                      | Docker registry authentication data
-cert-key.pem                                    | PEM Private key
-extension:ppk private                           | PuTTYgen private key
+misc-keys/cert-key.pem                          | PEM Private key
+misc-keys/putty-example.ppk                     | PuTTYgen private key
 .ssh/id_rsa                                     | Private ssh key
+.ssh/id_rsa.pub                                 | Public ssh key (might still not be ideal)
 db/dump.sql                                     | MySQL dump w/ bcrypt hashes
 cloud/.credentials                              | S3 Credentials file
 cloud/.s3cfg                                    | S3 Credentials file
 cloud/.tugboat                                  | Digital Ocean tugboat config
+cloud/heroku.json                               | Heroku config
 web/var/www/public_html/wp-config.php           | WordPress config file
 web/var/www/public_html/.htpasswd               | htpasswd file
+web/var/www/public_html/config.php              | PHP application config file
 web/var/www/.env                                | Laravel .env (CI, various ruby based frameworks too)
 .git-credentials                                | Git credentials store
 .bashrc                                         | .bashrc file (contains several secrets as environment variables)
 .bash_profile                                   | .bash_profile file (contains several secrets as environment variables)
 db/robomongo.json                               | Mongolab credentials for robomongo
+db/mongoid.yml                                  | Mongoid config file
 web/js/salesforce.js                            | Salesforce credentials in a nodejs project
 .netrc                                          | netrc  with SMTP credentials
 hub                                             | Hub config that stores github tokens
@@ -47,7 +51,6 @@ config                                          | IRC config
 db/.pgpass                                      | PostgreSQL file which contains passwords
 /proftpdpasswd                                  | Usernames and passwords of proftpd created by cpanel
 ventrilo_srv.ini                                | Ventrilo configuration
-web/var/www/public_html/config.php              | PHP application config file
 etc/shadow                                      | Linux /etc/shadow file
 db/dbeaver-data-sources.xml                     | DBeaver config containing MySQL Credentials
 /.esmtprc                                       | esmtp configuration
