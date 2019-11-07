@@ -1,0 +1,6 @@
+{
+    "heroku": {
+      "HEROKU_EMAIL": "heroku@example.com",
+      "HEROKU_API_KEY": "7a2f9a4289e530bef6dbf31f4cbf63d5"
+    }
+  }

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="oracle_thin-168ec697f43-515be69f6924b104" provider="oracle" driver="oracle_thin" name="user" save-password="true" read-only="false">
+		<connection host="localhost" port="1521" server="localhost" database="orcl" url="jdbc:oracle:thin:@//localhost:1521/orcl" user="user" password="password"/>
+	</data-source>
+</data-sources>

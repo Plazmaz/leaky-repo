@@ -1,0 +1,47 @@
+{
+    "autoExec" : true,
+    "autoExpand" : true,
+    "autocompletionMode" : 1,
+    "batchSize" : 50,
+    "connections" : [
+     {
+      "connectionName" : "New Connection",
+      "credentials" : [
+       {
+        "databaseName" : "main",
+        "enabled" : false,
+        "userName" : "mongouser",
+        "userPassword" : "mongopass"
+       }
+      ],
+      "defaultDatabase" : "main",
+      "serverHost" : "localhost",
+      "serverPort" : 27017,
+      "sshAuthMethod" : 0,
+      "sshHost" : "localhost",
+      "sshPassphrase" : "SSHPass123",
+      "sshPort" : 22,
+      "sshPrivateKey" : "",
+      "sshPublicKey" : "",
+      "sshUserName" : "root",
+      "sshUserPassword" : "",
+      "sslEnabled" : false,
+      "sslPemKeyFile" : ""
+     }
+    ],
+    "disableConnectionShortcuts" : false,
+    "lineNumbers" : true,
+    "loadMongoRcJs" : true,
+    "style" : "Native",
+    "timeZone" : 0,
+    "toolbars" :  {
+     "connect" : true,
+     "exec" : true,
+     "explorer" : true,
+     "logs" : false,
+     "open_save" : true
+    },
+    "uuidEncoding" : 0,
+    "version" : "1.0",
+    "viewMode" : 1
+   }

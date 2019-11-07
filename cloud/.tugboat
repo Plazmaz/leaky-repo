@@ -1,0 +1,15 @@
+---
+authentication:
+  client_key: 383c8164d4bdd95d8b1bfbf4f540d754
+  api_key: 3b6311afca5bd8aac647b316704e9c6d
+ssh:
+  ssh_user: admin
+  ssh_key_path: "~/.ssh/deploy.pem"
+  ssh_port: '22'
+defaults:
+  region: nyc2
+  image: ubuntu-18-04-x64
+  size: '512mb'
+  ssh_key: ''
+  private_networking: 'false'
+  backups_enabled: 'false'

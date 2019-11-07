@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6ac7fc5c-e40f-41b3-b7fe-ed7f9b15e3c4" name="root" url="https://example.com">
+        <fileTransfer host="example.com" port="21" password="dff9dfdfdfdadfcfdfd8dff9dfcfdfcfdfc9dfd8dfcfdfdedffadfcbdfd9dfd9dfdddfc5dfd8dfcedf8b" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

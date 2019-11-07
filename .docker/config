@@ -1,0 +1,6 @@
+# IRC config
+IRC_HOST=irc.example.com
+IRC_NAME="realname"
+IRC_PORT=6697
+IRC_NICK=nick
+IRC_PASS=irc_pass
