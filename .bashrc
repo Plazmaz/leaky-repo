@@ -101,9 +101,9 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
-export GMAIL_USERNAME="example@gmail.com"
+export GMAIL_USERNAME="example@gmail.com" # Informative, can't be used by itself
 export GMAIL_PASSWORD="Pass!12345"
 export MAILCHIMP_API_KEY="38c47f19e349153fa963bb3b3212fe8e-us11"
-export MAILCHIMP_LIST_ID="606b868828"
-export OWNER_EMAIL="example@gmail.com"
+export MAILCHIMP_LIST_ID="606b868828" # Not positive, but pretty sure this isn't exploitable by itself. Open an issue if it is!
+export OWNER_EMAIL="example@gmail.com" # Informative, can't be used by itself
 export JEKYLL_GITHUB_TOKEN="c77e01c1e89682e4d4b94a059a7fd2b37ab326ed"

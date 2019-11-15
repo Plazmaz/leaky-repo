@@ -1,4 +1,4 @@
 ---
 github.com:
-- user: user
-  oauth_token: oauth_token
+- user: ocotcat
+  oauth_token: "7f9cc25de23d1a255720b0ae4551f4044d600f46"

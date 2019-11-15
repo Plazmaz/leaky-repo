@@ -2,12 +2,15 @@
 <FileZilla3>
     <Servers>
         <Server>
-            <Host>localhost</Host>
+			<!-- Informative -->
+            <Host>example.com</Host>
             <Port>21</Port>
             <Protocol>0</Protocol>
             <Type>0</Type>
-            <User>anonymous</User>
-            <Pass>anonymous</Pass>
+			<!-- Informative -->
+            <User>root</User>
+			<!-- Risk -->
+            <Pass>ExamplePas123</Pass>
             <Account>example.com</Account>
             <Logontype>4</Logontype>
             <TimezoneOffset>0</TimezoneOffset>

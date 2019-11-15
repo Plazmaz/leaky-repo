@@ -1,6 +1,10 @@
 # IRC config
+# Informative
 IRC_HOST=irc.example.com
+# Informative
 IRC_NAME="realname"
 IRC_PORT=6697
+# Informative
 IRC_NICK=nick
+# Risk
 IRC_PASS=irc_pass

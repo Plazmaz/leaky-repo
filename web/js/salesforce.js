@@ -3,6 +3,7 @@ let jsforce = require('jsforce');
 
 function sfQuery(queryString, success, error){
     let conn = new jsforce.Connection();
+    // Security Risk!
     conn.login('username@example.com', 'salesforcepassword', function(err, res) {
         if (err) {
             error(err);
