@@ -24,7 +24,7 @@
       "sshPrivateKey" : "",
       "sshPublicKey" : "",
       "sshUserName" : "root",
-      "sshUserPassword" : "",
+      "sshUserPassword" : "roboMongoSSHPass",
       "sslEnabled" : false,
       "sslPemKeyFile" : ""
      }
