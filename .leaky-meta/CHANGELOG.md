@@ -1,4 +1,13 @@
 # Changelog
+## 1.1.1
+System/logic changes:
+* Added support for benchmarking gitleaks
+* Fixed up install and benchmark scripts
+* Added secret coverage percentage for benchmarks  
+
+Changes to secrets:  
+* Added a password value for robomongo
+
 ## 1.1.0
 System/logic changes:  
 * Added system for automatically generating benchmarks
