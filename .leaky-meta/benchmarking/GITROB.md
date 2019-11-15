@@ -2,7 +2,7 @@
 Tool: https://github.com/michenriksen/gitrob  
 Command Used: `gitrob (web interface)`  
 Files covered: 2/44 (4.54% coverage)  
-Total finds: 3/179  
+Total finds: 3/179  (1.67% coverage)  
 False Positives: 0  
 
 File Name                              |  Found/Total   | False Positives |
