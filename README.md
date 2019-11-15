@@ -4,6 +4,7 @@
 * [FAQ](#FAQ)
 * [Secrets](#Secrets)
 * [Results](#Results)
+* [Changelog](#Changelog)
 * [Contact](#Contact)
 
 # FAQ
@@ -68,7 +69,12 @@ sftp-config.json                       | Created by SFTP for Sublime Text, conta
 high-entropy-misc.txt                          | Misc high entropy strings (HES1 is plain, HES2 is base64)
 
 # Results
-You can see how tools stack up in [Benchmarking](https://github.com/Plazmaz/leaky-repo/tree/master/.leaky-meta/benchmarking)
+We've tested a few tools and generated metrics for it. You can see how the tools tested so far stack up in [Benchmarking](https://github.com/Plazmaz/leaky-repo/tree/master/.leaky-meta/benchmarking)  
+If there's a tool you'd like tested, please file an issue with details on it or create a PR. We are focused primarily on command-line based tools, but are also happy to accept results from web or GUI-based tools, as long as you include the full results and details about the tool.
+
+# Changelog
+You can see recent changes made in our [CHANGELOG.md file](https://github.com/Plazmaz/leaky-repo/blob/master/.leaky-meta/CHANGELOG.md) or under [Releases](https://github.com/Plazmaz/leaky-repo/releases). We use semantic versioning for releases.
+
 # Contact
 Got a question? Found something worth adding?   
 [File an issue](https://github.com/Plazmaz/leaky-repo/issues)  
@@ -76,4 +82,4 @@ Have another reason to contact me? You can find me on Twitter:
 [@Plazmaz](https://twitter.com/Plazmaz)
 
 
-It's also worth noting that many of the original patterns used to find the filenames and examples of several secrets came from github-dorks, which is under tha [Apache 2.0 License](https://github.com/techgaun/github-dorks/blob/master/LICENSE)
+It's also worth noting that many of the original patterns used to find the filenames and examples of several secrets came from github-dorks, which is under tha [Apache 2.0 License](https://github.com/techgaun/github-dorks/blob/master/LICENSE). Also, for the sake of full disclosure, I am a maintainer on that project.
