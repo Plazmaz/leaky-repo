@@ -68,7 +68,7 @@ sftp-config.json                       | Created by SFTP for Sublime Text, conta
 high-entropy-misc.txt                          | Misc high entropy strings (HES1 is plain, HES2 is base64)
 
 # Results
-You can see how tools stack up in [Benchmarking](https://github.com/Plazmaz/leaky-repo/tree/master/benchmarking)
+You can see how tools stack up in [Benchmarking](https://github.com/Plazmaz/leaky-repo/tree/master/.leaky-meta/benchmarking)
 # Contact
 Got a question? Found something worth adding?   
 [File an issue](https://github.com/Plazmaz/leaky-repo/issues)  

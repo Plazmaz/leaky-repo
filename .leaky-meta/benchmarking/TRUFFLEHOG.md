@@ -1,51 +1,52 @@
 Tool: https://github.com/dxa4481/truffleHog  
-Command Used: `trufflehog --regex https://github.com/Plazmaz/leaky-repo.git`  
-Total finds: 22/44  
-False Positives: 0  
+Command Used: `trufflehog --json --regex .`  
+Files covered: 23/44 (52.27% coverage)  
+Total finds: 40/179  
+False Positives: 43  
 
-File Name                                       |  Found? (0 = no, 1 = yes) |
-------------------------------------------------|---------------------------|
-.bash_profile                                   | 1
-.bashrc                                         | 1
-.docker/.dockercfg                              | 1
-.docker/config.json                             | 1
-.mozilla/firefox/logins.json                    | 1
-.ssh/id_rsa                                     | 1
-.ssh/id_rsa.pub                                 | 1
-cloud/.credentials                              | 1
-cloud/.s3cfg                                    | 1
-cloud/.tugboat                                  | 1
-cloud/heroku.json                               | 1
-db/dump.sql                                     | 1
-db/mongoid.yml                                  | 1
-etc/shadow                                      | 1
-filezilla/recentservers.xml                     | 1
-high-entropy-misc.txt                           | 1
-misc-keys/cert-key.pem                          | 1
-misc-keys/putty-example.ppk                     | 1 
-proftpdpasswd                                   | 1
-web/ruby/config/master.key                      | 1
-web/ruby/secrets.yml                            | 1
-web/var/www/.env                                | 1 
-.npmrc                                          | 0
-web/var/www/public_html/wp-config.php           | 0
-web/var/www/public_html/.htpasswd               | 0
-.git-credentials                                | 0
-db/robomongo.json                               | 0
-web/js/salesforce.js                            | 0
-.netrc                                          | 0
-hub                                             | 0
-filezilla/filezilla.xml                         | 0
-config                                          | 0
-db/.pgpass                                      | 0
-ventrilo_srv.ini                                | 0
-web/var/www/public_html/config.php              | 0
-db/dbeaver-data-sources.xml                     | 0
-.esmtprc                                        | 0
-web/django/settings.py                          | 0
-deployment-config.json                          | 0
-.ftpconfig                                      | 0
-.remote-sync.json                               | 0
-.vscode/sftp.json                               | 0
-sftp-config.json                                | 0
-.idea/WebServers.xml                            | 0
+File Name                              |  Found/Total   | False Positives |
+---------------------------------------|----------------|-----------------|
+misc-keys/cert-key.pem                 | 25/1 | 24
+misc-keys/putty-example.ppk            | 21/2 | 19
+db/dump.sql                            | 8/10 | 0
+web/ruby/secrets.yml                   | 3/3 | 0
+cloud/.credentials                     | 2/4 | 0
+cloud/.tugboat                         | 2/3 | 0
+high-entropy-misc.txt                  | 2/2 | 0
+.docker/config.json                    | 2/6 | 0
+.mozilla/firefox/logins.json           | 2/28 | 0
+.docker/.dockercfg                     | 2/6 | 0
+filezilla/recentservers.xml            | 2/6 | 0
+.bashrc                                | 1/6 | 0
+.ssh/id_rsa                            | 1/1 | 0
+web/var/www/.env                       | 1/10 | 0
+db/mongoid.yml                         | 1/1 | 0
+proftpdpasswd                          | 1/1 | 0
+etc/shadow                             | 1/1 | 0
+cloud/heroku.json                      | 1/2 | 0
+hub                                    | 1/2 | 0
+.ssh/id_rsa.pub                        | 1/1 | 0
+web/ruby/config/master.key             | 1/1 | 0
+cloud/.s3cfg                           | 1/3 | 0
+.bash_profile                          | 1/11 | 0
+db/.pgpass                             | 0/1 | 0
+web/var/www/public_html/.htpasswd      | 0/1 | 0
+.netrc                                 | 0/2 | 0
+.vscode/sftp.json                      | 0/4 | 0
+.npmrc                                 | 0/3 | 0
+web/var/www/public_html/wp-config.php  | 0/12 | 0
+web/django/settings.py                 | 0/1 | 0
+.ftpconfig                             | 0/5 | 0
+.git-credentials                       | 0/1 | 0
+filezilla/filezilla.xml                | 0/3 | 0
+sftp-config.json                       | 0/4 | 0
+.esmtprc                               | 0/3 | 0
+db/dbeaver-data-sources.xml            | 0/1 | 0
+.idea/WebServers.xml                   | 0/2 | 0
+config                                 | 0/4 | 0
+web/js/salesforce.js                   | 0/1 | 0
+web/var/www/public_html/config.php     | 0/4 | 0
+ventrilo_srv.ini                       | 0/2 | 0
+db/robomongo.json                      | 0/7 | 0
+.remote-sync.json                      | 0/3 | 0
+deployment-config.json                 | 0/4 | 0
