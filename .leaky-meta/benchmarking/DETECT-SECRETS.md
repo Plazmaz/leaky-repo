@@ -1,7 +1,7 @@
 Tool: https://github.com/Yelp/detect-secrets  
 Command Used: `detect-secrets scan`  
 Files covered: 23/44 (52.27% coverage)  
-Total finds: 41/179 (22.91% coverage)  
+Total finds: 41/175 (23.43% coverage)  
 False Positives: 0  
 
 File Name                              |  Found/Total   | False Positives |
@@ -17,7 +17,7 @@ cloud/.credentials                     | 2/4 | 0
 high-entropy-misc.txt                  | 2/2 | 0
 .remote-sync.json                      | 1/3 | 0
 sftp-config.json                       | 1/4 | 0
-.docker/.dockercfg                     | 1/6 | 0
+.docker/.dockercfg                     | 1/4 | 0
 .ssh/id_rsa                            | 1/1 | 0
 web/var/www/public_html/config.php     | 1/4 | 0
 misc-keys/putty-example.ppk            | 1/2 | 0
@@ -26,7 +26,7 @@ cloud/.tugboat                         | 1/3 | 0
 hub                                    | 1/2 | 0
 .vscode/sftp.json                      | 1/4 | 0
 deployment-config.json                 | 1/4 | 0
-.docker/config.json                    | 1/6 | 0
+.docker/config.json                    | 1/4 | 0
 misc-keys/cert-key.pem                 | 1/1 | 0
 db/mongoid.yml                         | 1/1 | 0
 filezilla/recentservers.xml            | 0/6 | 0

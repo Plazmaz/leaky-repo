@@ -1,7 +1,7 @@
 Tool: https://github.com/dxa4481/truffleHog  
 Command Used: `trufflehog --json --regex .`  
 Files covered: 23/44 (52.27% coverage)  
-Total finds: 40/179 (22.35% coverage)  
+Total finds: 40/175 (22.86% coverage)  
 False Positives: 43  
 
 File Name                              |  Found/Total   | False Positives |
@@ -11,11 +11,11 @@ misc-keys/putty-example.ppk            | 21/2 | 19
 db/dump.sql                            | 8/10 | 0
 web/ruby/secrets.yml                   | 3/3 | 0
 filezilla/recentservers.xml            | 2/6 | 0
-.docker/.dockercfg                     | 2/6 | 0
+.docker/.dockercfg                     | 2/4 | 0
 .mozilla/firefox/logins.json           | 2/28 | 0
 cloud/.credentials                     | 2/4 | 0
 cloud/.tugboat                         | 2/3 | 0
-.docker/config.json                    | 2/6 | 0
+.docker/config.json                    | 2/4 | 0
 high-entropy-misc.txt                  | 2/2 | 0
 cloud/.s3cfg                           | 1/3 | 0
 cloud/heroku.json                      | 1/2 | 0
