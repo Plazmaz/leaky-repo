@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
 if ! type "pip" > /dev/null
 then
     echo "Pip and Python are required for installing detect-secrets and truffleHog, but pip was not found!"
@@ -6,8 +7,8 @@ then
 fi
 
 mkdir -p ~/.local/bin
-if [ ! -f ~/.local/bin/gitleaks ]; then
-    wget https://github.com/zricethezav/gitleaks/releases/download/v3.0.1/gitleaks-linux-amd64 -O ~/.local/bin/gitleaks
+if ! type "gitleaks" > /dev/null; then
+    wget https://github.com/zricethezav/gitleaks/releases/download/v4.0.1/gitleaks-linux-amd64 -O ~/.local/bin/gitleaks
     chmod +x ~/.local/bin/gitleaks
 fi
 wget https://raw.githubusercontent.com/zricethezav/gitleaks/master/examples/leaky-repo.toml -O gitleaks-config.toml

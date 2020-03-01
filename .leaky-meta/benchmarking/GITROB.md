@@ -2,7 +2,7 @@
 Tool: https://github.com/michenriksen/gitrob  
 Command Used: `gitrob (web interface)`  
 Files covered: 2/44 (4.54% coverage)  
-Total finds: 3/175  (1.71% coverage)  
+Total finds: 3/179  (1.67% coverage)  
 False Positives: 0  
 
 File Name                              |  Found/Total   | False Positives |
@@ -23,11 +23,11 @@ db/mongoid.yml                         | 0/1 | 0
 cloud/.tugboat                         | 0/3 | 0
 .vscode/sftp.json                      | 0/4 | 0
 hub                                    | 0/2 | 0
-.docker/config.json                    | 0/4 | 0
+.docker/config.json                    | 0/6 | 0
 sftp-config.json                       | 0/4 | 0
 .idea/WebServers.xml                   | 0/2 | 0
 misc-keys/putty-example.ppk            | 0/2 | 0
-.docker/.dockercfg                     | 0/4 | 0
+.docker/.dockercfg                     | 0/6 | 0
 web/var/www/public_html/config.php     | 0/4 | 0
 .remote-sync.json                      | 0/3 | 0
 deployment-config.json                 | 0/4 | 0
