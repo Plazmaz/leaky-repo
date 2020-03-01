@@ -40,7 +40,7 @@ def get_secret_count_detectsecrets():
 
 def get_secret_count_gitleaks():
     finds = {}
-    cmd = ['gitleaks', '--report=.leaky-meta/gitleaks.json', '--repo-path', '.']
+    cmd = ['gitleaks', '--config=.leaky-meta/gitleaks-config.toml', '--report=.leaky-meta/gitleaks.json', '--repo-path', '.']
     stdout, stderr = get_command_stdout(cmd)
     with open('gitleaks.json') as f:
         data = json.load(f)

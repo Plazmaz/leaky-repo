@@ -1,7 +1,7 @@
 ---
 authentication:
   client_key: 383c8164d4bdd95d8b1bfbf4f540d754 # Informative
-  api_key: 3b6311afca5bd8aac647b316704e9c6d # Sensitive.
+  api_key: 3b6311afca5bd8aac647b316704e9c6d # Risk.
 ssh:
   ssh_user: admin # Informative
   ssh_key_path: "~/.ssh/deploy.pem"
