@@ -8,7 +8,8 @@ fi
 
 mkdir -p ~/.local/bin
 if ! type "gitleaks" > /dev/null; then
-    wget https://github.com/zricethezav/gitleaks/releases/download/v4.0.1/gitleaks-linux-amd64 -O ~/.local/bin/gitleaks
+    latest=$(curl -s https://api.github.com/repos/zricethezav/gitleaks/releases/latest |grep "browser_download_url.*linux-amd64" |cut -d : -f 2,3 | tr -d '"')
+    wget $latest -O ~/.local/bin/gitleaks
     chmod +x ~/.local/bin/gitleaks
 fi
 wget https://raw.githubusercontent.com/zricethezav/gitleaks/master/examples/leaky-repo.toml -O gitleaks-config.toml
