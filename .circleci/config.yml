@@ -4,11 +4,13 @@ orbs:
 
 jobs:
   build:
-    machine: true
+    executor: bridgecrew/default
     steps:
       - checkout
-      - bridgecrew/install
       - bridgecrew/scan:
           api-key-variable: BC_API_KEY
-          directory: .
+          directory: ./terraform
+          output: json
+          soft-fail: true
 workflows: null
+
