@@ -1,0 +1,17 @@
+version: 2.1
+orbs:
+  checkov: bridgecrew/checkov@0.0.4
+
+  jobs:
+    build:
+      machine: true
+      steps:
+        - checkov/scan:
+            api-key: none
+            directory: ./home/evgeny/Devops Tools/Cider Security/leaky-repo/leaky-repo-master
+            output: json
+            repo-id: bridgecrewio/leaky-repo
+            soft-fail: true
+  orbs:
+    checkov: bridgecrew/checkov-orb@0.0.3
+  version: 2.1
