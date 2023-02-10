@@ -1,0 +1,22 @@
+version: 2.1
+
+jobs:
+  talisman:
+    docker:
+      - image: darakeon/talisman
+    resource_class: small
+    environment:
+      TALISMAN_HOME: /root/.talisman/bin
+      TALISMAN_INTERACTIVE: false
+    steps:
+      - checkout
+      - run:
+          name: Check Talisman
+          command: $TALISMAN_HOME/talisman_linux_amd64 --scan # I've added --ignoreHistory to the end here
+      - store_artifacts:
+          path: talisman_report/talisman_reports/data
+          destination: talisman_report
+workflows:
+  talisman-workflow:
+    jobs:
+      - talisman
