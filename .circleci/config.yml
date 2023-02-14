@@ -16,7 +16,11 @@ jobs:
       - store_artifacts:
           path: talisman_report/talisman_reports/data
           destination: talisman_report
+      - run:
+            name: "Notify Artifact in Pull Request"
+            command: npx moxci  talisman_report/talisman_reports/data
 workflows:
   talisman-workflow:
     jobs:
       - talisman
+
