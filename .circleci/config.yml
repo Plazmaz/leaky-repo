@@ -30,7 +30,8 @@ jobs:
             -u "$CIRCLE_API_TOKEN:" | jq ".items[].url")  
             echo $ARTIFACT
             echo 'export ARTIFACTS=${ARTIFACT}' >> $BASH_ENV
-            echo $ARTIFACTS
+            echo ${ARTIFACTS}
+            echo ${CIRCLE_BUILD_URL}
     
       - slack/notify:               
                 custom: |
