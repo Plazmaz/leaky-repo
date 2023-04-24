@@ -63,7 +63,7 @@ jobs:
                               "type": "plain_text",
                               "text": "View Artifact URL"
                             },
-                            "url": ${ARTIFACTS}      
+                            "url": ${CIRCLE_SHELL_ENV}      
                                     
                           }
                         ]
