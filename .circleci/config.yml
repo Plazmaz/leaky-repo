@@ -28,7 +28,6 @@ jobs:
             ARTIFACT=$(curl -X GET "https://circleci.com/api/v2/project/github/bc-ramkumar/leaky-repo/$CIRCLE_BUILD_NUM/artifacts" \
             -H "Accept: application/json" \
             -u "$CIRCLE_API_TOKEN:" | jq ".items[].url")  
-            echo ${CIRCLE_BUILD_URL}
             echo $ARTIFACT
             echo "export ARTIFACTS=${ARTIFACT}" >> $BASH_ENV
             echo ${ARTIFACTS}
